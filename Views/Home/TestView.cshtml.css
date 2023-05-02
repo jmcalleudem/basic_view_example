@@ -1,0 +1,75 @@
+﻿h1 {
+    color: blue;
+}
+h3 {
+    color: red;
+    background-color: black;
+    text-align: center;
+    text-decoration-line: underline;
+    text-decoration-color: yellow;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    align-content: center;
+}
+
+tr:hover {
+    background-color: #D6EEEE;
+}
+
+tr:nth-child(even) {
+    background-color: #D6EEEE;
+}
+img {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+}
+
+    .styled-table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+    .styled-table thead tr {
+    background-color: #009879;
+    color: #ffffff;
+    text-align: left;
+}
+    .styled-table th,
+.styled-table td {
+    padding: 12px 15px;
+}
+    .styled-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.styled-table tbody tr:last-of-type {
+    border-bottom: 2px solid #009879;
+}
+    .styled-table tbody tr.active-row {
+    font-weight: bold;
+    color: #009879;
+}
+
+/*
+    Revisar:
+    * Html básico: https://www.w3schools.com/html/html_basic.asp
+    * Layouts: https://www.w3schools.com/html/html_layout.asp
+    * Css básico: https://www.w3schools.com/css/default.asp
+    * Estilos sobre botones: https://www.w3schools.com/css/css3_buttons.asp
+    * Estilos sobre layouts: https://www.w3schools.com/css/css_website_layout.asp
+    * Grids con bootstrap: https://www.w3schools.com/bootstrap/bootstrap_grid_basic.asp
+    * Grid layout css: https://www.w3schools.com/css/css_grid.asp
+    * Blog corto sobre grids: https://www.campusmvp.es/recursos/post/como-maquetar-html-con-el-sistema-grid-de-css.aspx
+    * Colspan y Rowspan (Ejercicio): https://www.w3schools.com/html/html_table_colspan_rowspan.asp
+*/
